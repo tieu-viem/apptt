@@ -5,6 +5,7 @@ import com.google.gson.annotations.SerializedName;
 public class WeatherData {
     @SerializedName("weather")
     private Weather[] weather;
+
     private Main main;
     private Wind wind;
     private Rain rain;
@@ -15,6 +16,15 @@ public class WeatherData {
     private int id;
     private String name;
     private int cod;
+    private String dt_iso;
+
+    public String getDt_iso() {
+        return dt_iso;
+    }
+
+    public void setDt_iso(String dt_iso) {
+        this.dt_iso = dt_iso;
+    }
 
     public Weather[] getWeather() {
         return weather;
@@ -104,10 +114,7 @@ public class WeatherData {
         this.cod = cod;
     }
 
-    public double getFeels_like() {
 
-        return 0;
-    }
 
     public static class Clouds {
         private int all;
@@ -276,7 +283,6 @@ public class WeatherData {
     public static class Rain {
         @SerializedName("1h")
         private double rainVolume;
-
         public double getRainVolume() {
             return rainVolume;
         }

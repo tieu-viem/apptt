@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<androidx.drawerlayout.widget.DrawerLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/drawer_layout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <!-- Main content layout -->
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <ImageView
+            android:id="@+id/weatherIconImageView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/ic_weather_default"
+            android:contentDescription="@string/weather_icon_description" />
+        <!-- Rest of your existing content -->
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/navigation_drawer"
+            android:layout_width="240dp"
+            android:layout_height="match_parent"
+            android:layout_gravity="start"
+            android:background="@android:color/white"
+            android:scrollbars="vertical" />
+    </RelativeLayout>
+
+    <!-- Left-side navigation drawer -->
+    <com.google.android.material.navigation.NavigationView
+        android:id="@+id/navigation_view"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_gravity="start">
+
+        <!-- Menu items for the navigation drawer -->
+        <menu xmlns:android="http://schemas.android.com/apk/res/android"
+            android:layout_width="wrap_content">
+            <item
+                android:id="@+id/nav_item1"
+                android:title="Menu Item 1" />
+            <item
+                android:id="@+id/nav_item2"
+                android:title="Menu Item 2" />
+            <!-- Add more menu items as needed -->
+        </menu>
+    </com.google.android.material.navigation.NavigationView>
+
+</androidx.drawerlayout.widget.DrawerLayout>

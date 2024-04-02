@@ -5,13 +5,20 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".WeatherActivity">
-
+    <ImageView
+        android:id="@+id/splash"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/splash"
+        android:contentDescription="@string/weather_icon_description" />
     <TextView
         android:id="@+id/weatherTextView"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="@string/weather_forecast"
-        android:textSize="18sp"
+        android:textSize="23sp"
+        android:textStyle="bold"
+        android:textColor="#FFFFFF"
         android:layout_centerInParent="true"
         tools:ignore="MissingConstraints" />
 
