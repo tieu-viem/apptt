@@ -1,0 +1,23 @@
+<resources>
+    <!-- Chuỗi tiêu đề -->
+    <string name="app_name">THỜI TIẾT</string>
+    <string name="location_name">Vị trí thực tế:</string>
+    <string name="select_location">Chọn vị trí</string>
+
+    <string name="weather_forecast">Dự báo thời tiết:</string>
+    <string name="weather_icon">Biểu tượng thời tiết:</string>
+    <string name="weather_icon2">Biểu tượng thời tiết:</string>
+    <string name="weather_icon4">Biểu tượng thời tiết:</string>
+    <string name="weather_icon5">Biểu tượng thời tiết:</string>
+    <string name="weather_icon6">Biểu tượng thời tiết:</string>
+    <string name="weather_icon7">Biểu tượng thời tiết:</string>
+    <string name="weather_description_placeholder">Mô tả thời tiết sẽ được hiển thị ở đây</string>
+    <string name="temperature_placeholder">Nhiệt độ sẽ được hiển thị ở đây</string>
+    <string name="weather_icon_description">Weather icon</string>
+    <string name="enter_city_hint">Nhập tên thành phố</string>
+
+    <string name="search_button">Search</string>
+    <string name="searching">Searching...</string>
+    <string name="no_results">No results found</string>
+    <string name="error_message">An error occurred. Please try again later.</string>
+</resources>

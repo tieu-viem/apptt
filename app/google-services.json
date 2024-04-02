@@ -1,0 +1,68 @@
+{
+  "project_info": {
+    "project_number": "53154122337",
+    "firebase_url": "https://andr2-a6482-default-rtdb.firebaseio.com",
+    "project_id": "andr2-a6482",
+    "storage_bucket": "andr2-a6482.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:53154122337:android:a3f381cf4f3cee080c3820",
+        "android_client_info": {
+          "package_name": "com.android.andr2"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB2OeJTsnHMcwY0nMC8moEeV80sZyJZXmE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:53154122337:android:a9b596425f044c150c3820",
+        "android_client_info": {
+          "package_name": "com.example.apptt"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB2OeJTsnHMcwY0nMC8moEeV80sZyJZXmE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:53154122337:android:decf40021b7c1d360c3820",
+        "android_client_info": {
+          "package_name": "com.example.cc"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB2OeJTsnHMcwY0nMC8moEeV80sZyJZXmE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
