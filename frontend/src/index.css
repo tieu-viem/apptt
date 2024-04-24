@@ -1,0 +1,61 @@
+body {
+  margin: 0;
+  padding: 10;
+  overflow: auto; /* Prevent scrollbars */
+  /* background-image: url('/public/images/bg1.png'); */
+  margin-right: 10px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#root {
+  width: 100%;
+  height: 100%;
+
+}
+div{
+  display:inline-flex;
+}
+body {
+  background-color: gray;
+  font-family: 'Arial', sans-serif;
+}
+
+h1 {
+  color: #34dbb48f;
+  font-family: 'Times New Roman', serif;
+  text-align: center;
+  /* text-shadow: 15px 15px 10px rgba(33, 33, 26, 0.533);  */
+}
+h2 {
+  color: #34dbb48f;
+  font-family: 'Times New Roman', serif;
+  margin :10px;
+  /* text-shadow: 15px 15px 10px rgba(0, 0, 0, 0.7); */
+}
+
+h3 {
+  color: #34dbb48f;
+  font-family: 'Times New Roman', serif;
+  margin :10px;
+  /* text-shadow: 15px 15px 10px rgba(0, 0, 0, 0.7);  */
+}
+
+p {
+  color: #2ecc71;
+  margin: 10px;
+  font-family: 'Times New Roman', serif;
+
+  /* text-shadow: 15px 15px 10px rgba(0, 0, 0, 0.288);  */
+
+}
+
+/* You can add more styles based on your game's elements */
+.daily{
+  display: flex;
+  flex-wrap: wrap;
+}
