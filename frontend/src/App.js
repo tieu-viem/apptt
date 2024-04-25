@@ -3,7 +3,7 @@ import React, { useState, useEffect } from 'react';
 import { MapContainer, TileLayer, Marker, Popup } from 'react-leaflet';
 
 import axios from 'axios';
-import AddWeatherData from './components/adddata'; // Import the AddData component
+import WeatherMap2 from './components/WeatherMap'; // Import the AddData component
 import WeatherCurrent from './components/weatherCurrent';
 import DailyForecast from './components/DailyForecast';
 import WeatherMaps from './components/weathersmap';
@@ -81,9 +81,11 @@ const WeatherComponent = () => {
         <button type="submit">Search</button>
         <button onClick={handleAddWeather}>Add Weather Data</button>
       </form>
+      {cityName && <WeatherMaps cityName={cityName} />}
+      {cityName && <WeatherMap2 cityName={cityName} />}
       {cityName && <WeatherCurrent cityName={cityName} />}
       {cityName && <DailyForecast cityName={cityName} />} {/* Render DailyForecast component */}
-      {cityName && <WeatherMaps cityName={cityName} />}
+      
       {error && <p>{error}</p>}
       {loading ? (
         <p>Loading...</p>

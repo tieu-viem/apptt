@@ -23,18 +23,21 @@ div{
 body {
   background-color: gray;
   font-family: 'Arial', sans-serif;
+  padding: 10px;
 }
 
 h1 {
   color: #34dbb48f;
   font-family: 'Times New Roman', serif;
   text-align: center;
+  padding: 10px;
   /* text-shadow: 15px 15px 10px rgba(33, 33, 26, 0.533);  */
 }
 h2 {
   color: #34dbb48f;
   font-family: 'Times New Roman', serif;
   margin :10px;
+  
   /* text-shadow: 15px 15px 10px rgba(0, 0, 0, 0.7); */
 }
 
